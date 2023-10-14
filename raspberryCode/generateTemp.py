@@ -1,5 +1,8 @@
 #### 
+# Follow install steps from in class document
 # This is the code that is set as a Cron job to collect data periodically and write the json to a file.
+# entries.json will be what the health uses as data
+# latest.json is what the home page will use
 #
 # When running on raspberry pi, it will update the files that this reads from
 # 
@@ -34,7 +37,7 @@ while True: # Will go until it gets a valid reading to log
 		# 	file.write(entriesValue)
 		
 		#Write the latest value
-		with open("latest.json", "w") as file:
+		with open("lastReading.json", "w") as file:
 			timestamp = datetime.now().strftime("%Y-%b-%d-%H:%M")
 			file.write("{\n\t\"time\": \"" + timestamp + "\",\n\t\"temp\":\"" + str(temperature_f)+ " \",\n\t\"humidity\": \""+ str(humidity) + "\"\n}" + "\n")
 
