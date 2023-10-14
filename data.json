@@ -1,28 +1,28 @@
 {
-	"entries": [
-		{"id": "2023-Oct-14-12:20:07", "temp":"71.1 ",  "humidity": "52.3"},
-		{"id": "2023-Oct-14-12:20:08", "temp":"70.1 ",  "humidity": "52.3"},
-		{"id": "2023-Oct-14-12:20:08", "temp":"67.1 ",  "humidity": "43.3"},
-		{"id": "2023-Oct-14-12:20:23", "temp":"72.1 ",  "humidity": "45.3"},
-		{"id": "2023-Oct-14-12:20:24", "temp":"47.1 ",  "humidity": "49.3"},
-		{"id": "2023-Oct-14-12:20:25", "temp":"44.1 ",  "humidity": "53.3"},
-		{"id": "2023-Oct-14-12:20:26", "temp":"49.1 ",  "humidity": "57.3"},
-		{"id": "2023-Oct-14-12:20:12", "temp":"55.1 ",  "humidity": "60.3"},
-		{"id": "2023-Oct-14-12:20:14", "temp":"72.1 ",  "humidity": "57.3"},
-		{"id": "2023-Oct-14-12:20:07", "temp":"71.1 ",  "humidity": "52.3"},
-		{"id": "2023-Nov-14-12:20:08", "temp":"70.1 ",  "humidity": "52.3"},
-		{"id": "2023-Nov-14-12:20:08", "temp":"67.1 ",  "humidity": "43.3"},
-		{"id": "2023-Nov-14-12:20:23", "temp":"72.1 ",  "humidity": "45.3"},
-		{"id": "2023-Nov-14-12:20:24", "temp":"47.1 ",  "humidity": "49.3"},
-		{"id": "2023-Nov-14-12:20:25", "temp":"44.1 ",  "humidity": "53.3"},
-		{"id": "2023-Nov-14-12:20:26", "temp":"49.1 ",  "humidity": "57.3"},
-		{"id": "2023-Nov-14-12:20:12", "temp":"55.1 ",  "humidity": "60.3"},
-		{"id": "2023-Nov-14-12:20:14", "temp":"72.1 ",  "humidity": "57.3"},
-		{"id": "2023-Dec-14-12:20:23", "temp":"72.1 ",  "humidity": "45.3"},
-		{"id": "2023-Dec-14-12:20:24", "temp":"47.1 ",  "humidity": "49.3"},
-		{"id": "2023-Dec-14-12:20:25", "temp":"44.1 ",  "humidity": "53.3"},
-		{"id": "2023-Dec-14-12:20:26", "temp":"49.1 ",  "humidity": "57.3"},
-		{"id": "2023-Dec-14-12:20:12", "temp":"55.1 ",  "humidity": "60.3"},
-		{"id": "2023-Dec-14-12:20:14", "temp":"72.1 ",  "humidity": "57.3"}
-	]
+	"wet": {
+		"src": "./images/wet.jpg",
+		"description": "The room is now too wet for the plants. Measures should be taken to lower the humidity, such as adding a dehumidifier.",
+		"type": "Warning"
+	},
+	"dry": {
+		"src": "./images/dry.jpg",
+		"description": "The room is now too dry for the plants. Measures should be taken to increase the humidity, such as adding a humidifier to the room.",
+		"type": "Warning"
+	},
+	"hot": {
+		"src": "./images/hot.jpg",
+		"description": "The room is now too hot for the plants. Measures should be taken to lower the temperature to avoid damage.",
+		"type": "Warning"
+	},
+	"cold": {
+		"src": "./images/cold.jpg",
+		"description": "The room is now too cold for the plants. Measures should be taken to increase the temperature to avoid damage.",
+		"type": "Warning"
+	},
+	"comfortable": {
+		"src": "./images/comfort.jpg",
+		"description": "The room comfortable and the plants are happy",
+		"type": "Info"
+	}
+	
 }
