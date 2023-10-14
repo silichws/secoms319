@@ -4,11 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dashboard</title>
+	<!-- <title>Dashboard</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
 	<link href="./css/carousel.css" rel="stylesheet">
 	<link href="./css/index.css" rel="stylesheet">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
 
 	<script src="./index.js "></script>
 </head>
@@ -42,7 +48,7 @@
 
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
 			<div class="col">
-				<div id="card1" class="card collapse show shadow-sm">
+				<div id="card1Temp" class="card collapse show shadow-sm">
 					<div class="card-body" style="height: 200px; width: 200;">
 						<h4>Temperature</h4>
 						<p id="tempReading" class="card-text reading">not available</p>
@@ -51,7 +57,7 @@
 			</div>
 
 			<div class="col">
-				<div id="card1" class="card collapse show shadow-sm">
+				<div id="card2Hum" class="card collapse show shadow-sm">
 					<div class="card-body" style="height: 200px; width: 200;">
 						<h4>Humidity</h4>
 						<p id="humidityReading" class="card-text reading">not available</p>
@@ -59,7 +65,39 @@
 				</div>
 			</div>
 		</div>
-	
+	</div>
+	<div>
+		<h3>Meet our plants</h3>
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+			<div class="col">
+				<div id="card1" class="card collapse show shadow-sm">
+					<div id="imgPlant1"></div>
+					<div class="card-body">
+						<p id="txtPlant1" class="card-text"></p>
+					</div>
+				</div>
+				<button id="toggleCardButton1" type="button" class="btn btn-primary mb-2">Hide/Show</button>
+			</div>
+			<div class="col">
+				<div id="card2" class="card collapse show shadow-sm">
+					<div id="imgPlant2"></div>
+					<div class="card-body">
+						<p id="txtPlant2" class="card-text"></p>
+					</div>
+				</div>
+				<button id="toggleCardButton2" type="button" class="btn btn-primary mb-2">Hide/Show</button>
+			</div>
+			<div class="col">
+				<div id="card3" class="card collapse show shadow-sm">
+					<div id="imgPlant3"></div>
+					<div class="card-body">
+						<p id="txtPlant3" class="card-text"></p>
+					</div>
+				</div>
+				<button id="toggleCardButton3" type="button" class="btn btn-primary mb-2">Hide/Show</button>
+			</div>
+		</div>
+	</div>
 	<hr>
 	<footer class="container">
 		<p style="text-align: center;">&copy; 2023 Team 27</p>

@@ -36,13 +36,13 @@ function updateDisplayedImage(temperature, humidity) {
 		const tempType = document.getElementById("tempType");
 		const tempDes = document.getElementById("tempDes");
 		const temp = document.getElementById("temp");
-		if (temperature > 74) {
+		if (temperature > 75) {
 			tempImage.src = health.hot.src;
 			tempType.textContent = health.hot.type;
 			tempDes.textContent = health.hot.description;
 			temp.style.display = "block";
 			showCom = false;
-		} else if (temperature < 64) {
+		} else if (temperature < 65) {
 			tempImage.src = health.cold.src;
 			tempType.textContent = health.cold.type;
 			tempDes.textContent = health.cold.description;

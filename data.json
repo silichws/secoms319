@@ -23,6 +23,25 @@
 		"src": "./images/comfort.jpg",
 		"description": "The room comfortable and the plants are happy.",
 		"type": "Info"
-	}
-	
+	},
+	"plants": [
+		{
+			"name": "Snake Plant",
+			"tempRange": "65-75",
+			"humRange": "30-60",
+			"src": "./images/snake.jpeg"
+		},
+		{
+			"name": "Widow's-thrill",
+			"tempRange": "65-75",
+			"humRange": "30-60",
+			"src": "./images/widow.jpeg"
+		},
+		{
+			"name": "Peace Lily",
+			"tempRange": "65-75",
+			"humRange": "30-60",
+			"src": "./images/peace.jpeg"
+		}
+	]
 }
