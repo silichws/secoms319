@@ -35,6 +35,7 @@ function loadReading(lastReading) {
 			let name = myPlants.plants[i].name;
 			let humRange = myPlants.plants[i].humRange;
 			let tempRange = myPlants.plants[i].tempRange;
+			let age = myPlants.plants[i].age;
 			let src = myPlants.plants[i].src;
 			console.log(myPlants.plants[i]);
 			let imgPlant = document.createElement("div");
@@ -42,7 +43,8 @@ function loadReading(lastReading) {
 			let txtPlant = document.createElement("p");
 			txtPlant.innerHTML = `<p class="card-text"> <strong>${name}</strong> <br>
 			Temperature Range: ${humRange}<br>
-			Humidity Range: ${tempRange}
+			Humidity Range: ${tempRange}<br>
+			Age: ${age}<br>
 			</p>`;
 		
 			if (myPlants.plants[i].name === "Snake Plant") {
