@@ -21,7 +21,7 @@ function updateDisplayedImage(temperature, humidity) {
 			humDes.textContent = health.wet.description;
 			humid.style.display = "block";
 			showCom = false;
-		} else if (humidity < 30) {
+		} else if (humidity < 40) {
 			humImage.src = health.dry.src;
 			humType.textContent = health.dry.type;
 			humDes.textContent = health.dry.description;
@@ -42,7 +42,7 @@ function updateDisplayedImage(temperature, humidity) {
 			tempDes.textContent = health.hot.description;
 			temp.style.display = "block";
 			showCom = false;
-		} else if (temperature < 65) {
+		} else if (temperature < 66) {
 			tempImage.src = health.cold.src;
 			tempType.textContent = health.cold.type;
 			tempDes.textContent = health.cold.description;
