@@ -89,17 +89,19 @@ function loadData(data) {
 		data: {
 			labels: labelsArr,
 			datasets: [{
+				label: "Temperature",
 				data: tempData,
 				borderColor: "green",
-				fill: false
+				fill: false,
 			}, {
+				label: "Humidity",
 				data: humData,
 				borderColor: "blue",
 				fill: false
 			}]
 		},
 		options: {
-			legend: { display: false },
+			legend: { display: true },
 			onClick: function (event, elements) {
 				if (elements.length > 0) {
 					let firstElement = elements[0];
