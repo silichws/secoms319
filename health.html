@@ -39,8 +39,8 @@
 	<h1 class="mainHeading">Health Data</h1>
 	<div>
 		<!-- <h3>This looks like a great way to start the midterm project</h3> -->
-		<p>This shows the number of hours ago that the health data was collected. Click on a point for more info about that time. </p>
-		<canvas id="myChart" style="width:100%;max-width:800px"></canvas>
+		<p style="text-align: center;">This shows the number of hours ago that the health data was collected. Click on a point for more info about that time. </p>
+		<canvas id="myChart" style="width:100%;max-width:800px" class="graph"></canvas>
 
 		<div id="infoDiv" style="display: none;">
 			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
@@ -88,3 +88,10 @@
 </body>
 
 </html>
+<style>
+	.graph {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+</style>
