@@ -1,4 +1,43 @@
 .reading {
 	padding-top: 10px;
 }
+button {
+	margin-top: 5px;
+}
+.mainHeading {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.statusDisplay {
+	margin-bottom: 15px;
+}
+.tempDisplay {
+	text-align: center;
+	display: block;
+	  margin-left: auto;
+}
+.humidityDisplay {
+	text-align: center;
+	display: block;
+	  margin-right: auto;
+}
+#lastRead{
+	text-align: center;
+}
+#plantHeader{
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+#left-plant {
+	margin-left: auto;
+	display: block;
+}
+#middle-plant {
+	display: block;
 
+}
+#right-plant {
+	margin-right: auto;
+	display: block;
+}
